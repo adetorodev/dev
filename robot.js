@@ -55,7 +55,7 @@ let first = new VillageState(
     "Post office", [{place: "Post office", address: "Alice's house"}]
 )
 
-let next = first.move("Alice house")
+let next = first.move("Alice's house")
 
 console.log(next.place)
 console.log(next.parcels)
